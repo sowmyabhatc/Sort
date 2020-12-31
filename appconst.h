@@ -1,0 +1,7 @@
+#ifndef APPCONST_H_INCLUDED
+#define APPCONST_H_INCLUDED
+
+
+#define ARRAY_SIZE 100
+
+#endif // APPCONST_H_INCLUDED
