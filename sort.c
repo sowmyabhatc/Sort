@@ -50,7 +50,7 @@ for (pass=1;pass<size;++pass){
 }
 }
 
-static uint32_t  _partition_(int32_t list[],uint32_t start,uint32_t end){
+static uint32_t  _partition_(int32_t list[],int32_t start,int32_t end){
 uint32_t up =start,down=end;
 int32_t pivot=list[start];
 
