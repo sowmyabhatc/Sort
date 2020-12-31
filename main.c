@@ -11,11 +11,15 @@ for(pass=0;pass<size-1;++pass){
 }
 void test_sort(){
     int32_t input []={23,19,98,76,62,5,31,63,54,86};
-    //bubble_sort(input,10);
-    //assert_sort(input,10);
-    //selection_sort(input,10);
-    //assert_sort(input,10);
+    bubble_sort(input,10);
+    assert_sort(input,10);
+    selection_sort(input,10);
+    assert_sort(input,10);
     insertion_sort(input,10);
+    assert_sort(input,10);
+    quick_sort(input,0,9);
+    assert_sort(input,10);
+    merge_sort(input,0,9);
     assert_sort(input,10);
 }
 int main()
